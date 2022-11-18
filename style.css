@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to right,#00005C,#3B185F);
+    animation-name: linear;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 40px;
+    transition-duration: 2000ms;
+    transition-timing-function: ease-in-out;
+}
+
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+@keyframes linear {
+    10%{
+        background: linear-gradient(to right,#BA94D1,#DEBACE);
+    }
+    
+    30%{
+        background: linear-gradient(to right,pink,red);
+    }
+
+    50%{
+        background: linear-gradient(to right,#FF8787,#F8C4B4);
+    }
+
+    70%{
+        background: linear-gradient(to right,green,palegreen);
+    }
+
+    100%{
+        background: linear-gradient(to right,purple,violet);
+    }
+
+    
+}
+
+
+@media screen and (max-width:360px) {
+    p{
+        margin-top: 200px;
+    }
+
+    p:hover{
+        text-decoration: underline;
+        font-size: 10px;
+    }
+
+
+   
+
+   
+    
+}
